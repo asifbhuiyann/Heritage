@@ -1,3 +1,72 @@
+.about {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.link{
+  cursor: pointer;
+}
+.link-1{
+  cursor: pointer;
+}
+.link-2{
+  margin-right: 300px;
+    cursor: pointer;
+}
+.link-3{
+  margin-left: 300px;
+    cursor: pointer;
+}
+.link-4{
+  cursor: pointer;
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.landing.link {
+  margin-right: 13.5px;
+  width: 36px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--black, #000000);
+}
+.landing,.column {
+  margin: 26.5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 549.4px;
+  box-sizing: border-box;
+}
+.column-1 {
+  background: url('/images/hertiage_nest_final_logo_11.png') 50% / cover no-repeat;
+  width: 53.3px;
+  height: 80px;
+}
+
+.landing .column-2 {
+  margin: 26.5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 549.4px;
+  box-sizing: border-box;
+}
+.navbar {
+  box-shadow: 0px 16px 16px 0px rgba(0, 20, 38, 0.12);
+  background: #ECF5FF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 112px 8px 112px;
+  box-sizing: border-box;
+}
 .about .link {
   margin-right: 13.5px;
   width: 36px;
@@ -30,7 +99,6 @@
   flex-direction: row;
   justify-content: space-between;
   width: 549.4px;
-  height: fit-content;
   box-sizing: border-box;
 }
 .about .hertiage-nest-final-logo-11 {
@@ -72,7 +140,6 @@
   flex-direction: row;
   justify-content: space-between;
   width: 549.4px;
-  height: fit-content;
   box-sizing: border-box;
 }
 .about .navbar {
@@ -82,13 +149,11 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 8px 112.5px 8px 112px;
-  width: 1440px;
   box-sizing: border-box;
 }
 .about .frame-4 {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.64) 22.3%, rgba(0, 0, 0, 0.64) 100%), url('/images/frame_4.jpeg') 50% / cover no-repeat;
   margin-bottom: 53px;
-  width: 1440px;
   height: 320px;
 }
 .about .k {
@@ -112,7 +177,7 @@
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .view-all {
@@ -126,6 +191,21 @@
   text-decoration-line: underline;
   line-height: 1.5;
   color: var(--foundation-secondaryorange-500, #EE6611);
+}
+.view-all:hover{
+  cursor: pointer;
+}
+.view-all-1:hover{
+
+  cursor: pointer;
+}
+.view-all-2:hover{
+
+  cursor: pointer;
+}
+.view-all-3:hover{
+
+  cursor: pointer;
 }
 .about .vector-8 {
   width: 16px;
@@ -152,14 +232,20 @@
   width: 232px;
   box-sizing: border-box;
 }
-.about .card {
-  background: var(--foundation-secondaryorange-50, #FDF0E7);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 24px;
-  box-sizing: border-box;
+.card {
+    background: var(--foundation-secondaryorange-50, #FDF0E7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 24px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s ease;
 }
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
 .about .k-1 {
   align-self: flex-start;
   overflow-wrap: break-word;
@@ -181,7 +267,7 @@
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .view-all-1 {
@@ -228,7 +314,12 @@
   justify-content: center;
   padding: 0 24px;
   box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
 }
+.card-1:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
 .about .k-2 {
   align-self: flex-start;
   overflow-wrap: break-word;
@@ -250,7 +341,7 @@
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .view-all-2 {
@@ -297,7 +388,12 @@
   justify-content: center;
   padding: 0 24px;
   box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
 }
+.card-2:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
 .about .k-3 {
   align-self: flex-start;
   overflow-wrap: break-word;
@@ -319,7 +415,7 @@
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .view-all-3 {
@@ -366,13 +462,19 @@
   justify-content: center;
   padding: 0 24px;
   box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
 }
+.card-3:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
 .about .frame-1000006874 {
   margin: 0 112px 67px 112px;
   display: flex;
   flex-direction: row;
   column-gap: 32px;
-  width: fit-content;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
 }
 .about .container-5 {
@@ -417,7 +519,7 @@
   display: flex;
   flex-direction: row;
   align-self: flex-start;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .efficient-and-transparent-home-buying-solutions {
@@ -432,7 +534,7 @@
   margin-bottom: 24px;
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .in-the-symphony-of-bustling-markets-and-serene-landscapes-heritage-nest-was-borna-vision-to {
@@ -457,7 +559,7 @@
   margin: 0 112px 64px 112px;
   display: flex;
   padding-top: 313px;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .container-2 {
@@ -502,7 +604,7 @@
   display: flex;
   flex-direction: row;
   align-self: flex-start;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .efficient-and-transparent-home-buying-solutions-1 {
@@ -517,7 +619,7 @@
   margin: 0 4.8px 24px 0;
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .to-bridge-the-miles-with-smiles-heritage-nest-pledges-to-be-the-golden-thread-connecting-nris-to-their-homeland-through-trust-transparency-and-tailored-real-estate-solutions {
@@ -541,7 +643,7 @@
   position: relative;
   margin: 0 114px 64px 112px;
   padding-top: 313px;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .line-92 {
@@ -563,7 +665,7 @@
   display: flex;
   flex-direction: row;
   align-self: flex-start;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .discover-the-faces-behind-our-success {
@@ -578,8 +680,8 @@
   margin: 0 23px 64px 23px;
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
-  width: fit-content;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
 }
 .about .rectangle-29 {
@@ -663,8 +765,9 @@
 .about .frame-1000006873 {
   margin: 0 90px 64px 89px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  width: fit-content;
   box-sizing: border-box;
 }
 .about .line-93 {
@@ -686,7 +789,7 @@
   display: flex;
   flex-direction: row;
   align-self: flex-start;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .meet-the-stewards-of-your-heritage-journey {
@@ -702,7 +805,7 @@
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .each-member-an-embodiment-of-expertise-and-warmth-dedicated-to-guiding-you-home-every-step-of-the-way {
@@ -717,7 +820,7 @@
   margin-bottom: 48px;
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .book-consultation-now {
@@ -736,6 +839,10 @@
   padding: 14px 24px;
   box-sizing: border-box;
 }
+.frame-21:hover{
+  background-color: orange;
+  cursor: pointer;
+}
 .about .frame-52 {
   margin-right: 168.5px;
   display: flex;
@@ -751,7 +858,8 @@
   margin: 0 114px 64px 112px;
   display: flex;
   flex-direction: row;
-  width: fit-content;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
 }
 .about .testimonials {
@@ -833,7 +941,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .frame-60 {
@@ -841,7 +949,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .testimonials-1 {
@@ -921,7 +1029,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .frame-61 {
@@ -929,7 +1037,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .testimonials-2 {
@@ -944,7 +1052,7 @@
   margin-bottom: 32px;
   display: flex;
   flex-direction: row;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .rectangle-13 {
@@ -982,7 +1090,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .frame-106 {
@@ -990,7 +1098,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .hertiage-nest-final-logo-111 {
@@ -1106,7 +1214,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .footer-links-column {
@@ -1209,7 +1317,7 @@
 .about .footer-links-1 {
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .footer-links-column-1 {
@@ -1314,7 +1422,7 @@
 .about .footer-links-2 {
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .footer-links-column-2 {
@@ -1417,7 +1525,7 @@
 .about .footer-links-3 {
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .footer-links-column-3 {
@@ -1519,7 +1627,7 @@
 .about .footer-links-4 {
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .footer-links-column-4 {
@@ -1537,7 +1645,7 @@
   display: flex;
   flex-direction: row;
   align-self: flex-start;
-  width: fit-content;
+  
   box-sizing: border-box;
 }
 .about .footer-text {
@@ -1627,13 +1735,6 @@
   display: flex;
   flex-direction: column;
   padding: 64px 112px 48px 112px;
-  width: fit-content;
   box-sizing: border-box;
 }
-.about {
-  background: #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  width: 1440px;
-  box-sizing: border-box;
-}
+
