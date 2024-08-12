@@ -25,22 +25,22 @@
 }
 .footer .text-31 {
   overflow-wrap: break-word;
-  font-family: var(--text-lg-semibold-font-family, 'Inter');
-  font-weight: var(--text-lg-semibold-font-weight, 600);
-  font-size: var(--text-lg-semibold-font-size, 18px);
-  line-height: var(--text-lg-semibold-line-height, 1.556);
-  color: var(--white, #FFFFFF);
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+  margin-left: 20px;
 }
 .footer .button-base {
-  box-shadow: var(--shadowxs-1, 0px 1px 2px 0px rgba(16, 24, 40, 0.05));
   border-radius: 8px;
-  border: 1px solid var(--foundation-secondaryorange-500, #EE6611);
-  background: var(--foundation-secondaryorange-500, #EE6611);
+  background: #EE6611;
   display: flex;
+  margin-left: 200px;
   padding: 13px 0.4px 13px 0;
   width: 176px;
-  height: fit-content;
   box-sizing: border-box;
+}
+.button-base:hover{
+  background-color: rgb(61, 77, 61);
 }
 .footer .email-capture {
   margin-top: 7px;
@@ -56,7 +56,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 48px 112px 55px 112px;
-  width: 1440px;
+  
   box-sizing: border-box;
 }
 .footer .hertiage-nest-final-logo-11 {
@@ -701,6 +701,6 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 48px;
-  width: 1440px;
+  
   box-sizing: border-box;
 }
