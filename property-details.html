@@ -92,19 +92,19 @@
               <div class="beds">
                 <img class="bathtub" src="/vectors/bathtub_x2.svg" />
                 <p class="beds-1">
-                <span class="beds-1-sub-16"></span><span></span>
+                <span class="beds-1-sub-16">2 Beds</span><span></span>
                 </p>
               </div>
               <div class="beds-2">
                 <img class="bed" src="/vectors/bed_x2.svg" />
                 <p class="bath">
-                <span class="bath-sub-16"></span><span></span>
+                <span class="bath-sub-16">2 Baths</span><span></span>
                 </p>
               </div>
               <div class="beds-3">
                 <img class="balcony" src="/vectors/balcony_x2.svg" />
                 <p class="balcony-2">
-                <span class="balcony-2-sub-16"></span><span></span>
+                <span class="balcony-2-sub-16">2 Balcony</span><span></span>
                 </p>
               </div>
               <div class="beds-4">
@@ -193,7 +193,7 @@
                 </span>
               </div>
               <span class="your-bid-can-not-be-than-10-of-the-property-minimum-value">
-              Your bid can not be than 10% of the property Minimum value.
+              Your bid can not be less than 10% of the property Minimum value.
               </span>
             </div>
             <div class="frame-163">
@@ -202,39 +202,24 @@
                   <div class="min-1">
                   Min
                   </div>
-                  <div class="min-button">
-                    <span class="k-1">
-                    $ 280k
-                    </span>
-                  </div>
+                  <input id="min" type="text" name="" id="">
                 </div>
                 <div class="max">
                   <div class="max-1">
                   Max
                   </div>
-                  <div class="min-button-1">
-                    <span class="k-2">
-                    $ 305k
-                    </span>
-                  </div>
+                  <input id="max" type="text" name="" id="">
                 </div>
               </div>
-              <div class="frame-162">
-                <div class="frame-1571">
-                  <div class="ellipse-7">
-                  </div>
-                  <div class="ellipse-8">
-                  </div>
-                </div>
-                <div class="price">
-                  <span class="k-3">
-                  $ 280k
-                  </span>
-                  <span class="k-4">
-                  $ 305k
-                  </span>
-                </div>
-              </div>
+<div class="frame-162">
+
+  <div class="price">
+    <span class="k-3" id="priceLow">$280k</span>
+    <span class="k-4" id="priceHigh">$305k</span>
+  </div>
+  <input type="range" id="priceSlider" min="280000" max="305000" step="1000" value="280000">
+</div>
+
             </div>
             <div class="buttons">
               <span class="find-property">
@@ -522,7 +507,7 @@
         <div class="container-5">
           <div class="frame-24">
             <span class="see-all-propeety">
-            See all propeety
+            See all property
             </span>
           </div>
           <div class="container-3">
@@ -622,71 +607,15 @@
                 </div>
               </div>
               <div class="product-cart-2">
-                <div class="image-2">
-                  <div class="image-count-2">
-                    <div class="bold-video-audio-sound-gallery-2">
-                      <img class="vector-82" src="/vectors/vector_2507_x2.svg" />
-                    </div>
-                    <span class="container-5">
-                    20
-                    </span>
-                  </div>
-                </div>
-                <div class="text-cintent-2">
-                  <div class="text-content-5">
-                    <div class="catgeory-2">
-                      <div class="badge-5">
-                        <span class="apartment-2">
-                        Apartment 
-                        </span>
-                      </div>
-                      <div class="badge-4">
-                        <div class="rectangle-262">
-                        </div>
-                        <span class="ready-to-move-3">
-                        Ready to Move
-                        </span>
-                      </div>
-                    </div>
-                    <div class="property-details-3">
-                      <div class="sunny-slope-suites-2">
-                      SunnySlope Suites
-                      </div>
-                      <div class="location-2">
-                        <img class="fi-bs-marker-3" src="/vectors/fi_bs_marker_x2.svg" />
-                        <span class="meadowshire-park-greenfield-usa-3">
-                        Meadowshire Park, Greenfield, USA
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="frame-13">
-                    <span class="container-6">
-                    $ 250000
-                    </span>
-                  </div>
-                </div>
+
+
               </div>
             </div>
-            <div class="group-33">
-              <div class="linear-arrows-alt-arrow-right-2">
-                <img class="vector-69" src="/vectors/vector_34_x2.svg" />
-                <div class="linear-arrows-alt-arrow-right-3">
-                  <img class="vector-70" src="/vectors/vector_2326_x2.svg" />
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
         <div class="group-34">
-          <div class="group-341">
-            <div class="linear-arrows-alt-arrow-right">
-              <img class="vector-67" src="/vectors/vector_999_x2.svg" />
-              <div class="linear-arrows-alt-arrow-right-1">
-                <img class="vector-68" src="/vectors/vector_1858_x2.svg" />
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
       <div class="footer">
@@ -911,5 +840,6 @@
         </div>
       </div>
     </div>
+    <script src="property-details.js"></script>
   </body>
 </html>
