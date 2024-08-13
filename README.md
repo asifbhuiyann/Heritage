@@ -2,7 +2,8 @@
 ## Click and Navigate to all the pages
 I  have created this page so that you can navigate all the pages from here. As I don't have any personal domain so I am planning to host the project through Vercel and make this page the index page. After that, you just click and navigate to the pages. There are some php files and their data is getting fetched from the database so you might not see the data while navigating through the live link. For that you have to import the SQL file named heritage.sql in the database. 
 
-![image](https://github.com/user-attachments/assets/09d9d3ac-3013-4764-9fc6-c2a7b645dc72)
+![image](https://github.com/user-attachments/assets/b9ce0b14-618e-4a22-a49b-9d11e5f369ca)
+
 
 ## Language used in completing the project:
 
