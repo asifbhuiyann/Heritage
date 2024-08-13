@@ -352,15 +352,6 @@
   width: 3.5px;
   height: 3.5px;
 }
-.buyer-screens .linear-search-magnifer {
-  position: relative;
-  margin: 2px 14px 2px 0;
-  display: flex;
-  padding: 0 1px 1px 0;
-  width: 24px;
-  height: 24px;
-  box-sizing: border-box;
-}
 input#pt{
   padding: 15px;
   border: 1px solid black;
@@ -398,6 +389,10 @@ input#location{
   padding: 12px 0;
   width: 920px;
   box-sizing: border-box;
+}
+.frame-2:hover{
+  background-color: #D95D0F;
+  cursor: pointer;
 }
 .buyer-screens .frame-1000006895 {
   box-shadow: 0px 8px 96px 0px rgba(0, 0, 0, 0.12);
