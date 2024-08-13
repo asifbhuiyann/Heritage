@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    position: absolute;
+    top: 20px; 
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px; 
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: center; 
+}
+
+.navbar span {
+    flex: 1 0 18%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100px; 
+    width: 100px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.3s ease; 
+    border-radius: 1rem;
+}
+
+.navbar span:hover {
+    box-shadow: 0 4px 8px rgba(0, 1, 0, 1); 
+}
+
+.navbar span:nth-child(1) { background-color: #f8b400; }
+.navbar span:nth-child(2) { background-color: #f85f73; }
+.navbar span:nth-child(3) { background-color: #6a0572; }
+.navbar span:nth-child(4) { background-color: #0abde3; }
+.navbar span:nth-child(5) { background-color: #10ac84; }
+.navbar span:nth-child(6) { background-color: #feca57; }
+.navbar span:nth-child(7) { background-color: #ff6b6b; }
+.navbar span:nth-child(8) { background-color: #5f27cd; }
+.navbar span:nth-child(9) { background-color: #54a0ff; }
+.navbar span:nth-child(10) { background-color: #01a3a4; }
+
+.navbar span a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
