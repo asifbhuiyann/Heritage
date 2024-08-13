@@ -1,17 +1,20 @@
 # Heritage
+## Click and Navigate to all the pages
+
+![image](https://github.com/user-attachments/assets/09d9d3ac-3013-4764-9fc6-c2a7b645dc72)
 
 ## Language used in completing the project:
 
 1. I have used mainly HTML and CSS for styling the pages. 
 2. For functionality I have used JavaScript. 
-3. For server side handing i have used php. 
-4. For searching i have added ajax inside the js and jquery fade animation for showing search details.
+3. For server-side handling I have used php. 
+4. For searching I have added Ajax inside the JS and jQuery fade animation to show search details.
 
 ## Process
-I have downloaded all the assets at first and later on i have used them inside the code. There are two seperate folders for pictures and vector svg type icons.
+I downloaded all the assets at first and later on I used them inside the code. There are two separate folders for pictures and vector SVG-type icons.
 
 ## Note:
-1. In my first commit i have completed the task using the given figma measurement. Figma measurement doesn't cover the entire screen. That's why I changed the contents width to full. 
+I completed the task using the given Figma measurement in my first commit. Figma measurement doesn't cover the entire screen. That's why I changed the contents width to full. 
 
 ## Images
 
