@@ -1,5 +1,6 @@
 # Heritage
 ## Click and Navigate to all the pages
+I  have created this page so that you can navigate all the pages from here. As I don't have any personal domain so I am planning to host the project through Vercel and make this page the index page. After that, you just click and navigate to the pages. There are some php files and their data is getting fetched from the database so you might not see the data while navigating through the live link. For that you have to import the SQL file named heritage.sql in the database. 
 
 ![image](https://github.com/user-attachments/assets/09d9d3ac-3013-4764-9fc6-c2a7b645dc72)
 
@@ -9,7 +10,7 @@
 2. For functionality I have used JavaScript. 
 3. For server-side handling I have used php. 
 4. For searching I have added Ajax inside the JS and jQuery fade animation to show search details.
-
+5. I have used xampp as my server and did all the database work there. 
 ## Process
 I downloaded all the assets at first and later on I used them inside the code. There are two separate folders for pictures and vector SVG-type icons.
 
