@@ -1733,6 +1733,8 @@
 .about .footer {
   background: var(--foundation-primaryblue-50, #ECF5FF);
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   padding: 64px 112px 48px 112px;
   box-sizing: border-box;
