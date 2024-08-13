@@ -41,6 +41,7 @@
 }
 .button-base:hover{
   background-color: rgb(61, 77, 61);
+  cursor: pointer;
 }
 .footer .email-capture {
   margin-top: 7px;
