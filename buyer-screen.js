@@ -49,3 +49,41 @@ sliderLeft.addEventListener("click", () => {
     slider.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
   }
 });
+
+$("#property").on("input", function () {
+  var query = $(this).val();
+  if (query != "") {
+    $.ajax({
+      url: "search.php",
+      method: "POST",
+      data: {
+        query: query,
+      },
+      success: function (data) {
+        $("#search-result").fadeIn();
+        $("#search-result").html(data);
+      },
+    });
+  } else {
+    $("#search-resul").fadeOut();
+  }
+});
+
+function findProperty() {
+  var propertyType = document.getElementById("pt").value;
+  var budget = document.getElementById("budget").value;
+  var location = document.getElementById("location").value;
+
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "search_property.php", true);
+  xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  xhr.onload = function () {
+    if (this.status == 200) {
+      document.getElementById("results").innerHTML = this.responseText;
+    }
+  };
+  xhr.send(
+    "pt=" + propertyType + "&budget=" + budget + "&location=" + location
+  );
+}
+
