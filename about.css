@@ -1740,3 +1740,18 @@
   box-sizing: border-box;
 }
 
+@media (min-width: 600px) {
+    .about {
+        padding: 30px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 900px) {
+    .about {
+        padding: 40px;
+        font-size: 20px;
+    }
+}
+
+
