@@ -2,7 +2,7 @@
 ## Click and Navigate to all the pages
 I  have created this page so that you can navigate all the pages from here. As I don't have any personal domain so I am planning to host the project through Vercel and make this page the index page. After that, you just click and navigate to the pages. There are some php files and their data is getting fetched from the database so you might not see the data while navigating through the live link. For that you have to import the SQL file named heritage.sql in the database. 
 
-![image](https://github.com/user-attachments/assets/7b186674-ac6c-4523-8b2d-ecc5553cd4b1)
+![image](https://github.com/user-attachments/assets/9c14cf2d-fd00-42fc-8dc5-c7ea2831a620)
 
 
 ## Language used in completing the project:
@@ -85,6 +85,11 @@ This is an Admin Login Page. From this page admin can manage users and see biddi
 12. User Details
 
 ![image](https://github.com/user-attachments/assets/418bad13-21ac-42c4-b4a1-240486ed459e)
+
+13. Feedback
+
+![image](https://github.com/user-attachments/assets/3fd7c157-2802-4308-bad9-aec6c65bda7f)
+
 
 
 
