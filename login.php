@@ -102,7 +102,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         .card {
             animation: appear 0.5s forwards;
         }
+        @media (min-width: 600px) {
+    body {
+        padding: 30px;
+        font-size: 18px;
+    }
+}
 
+@media (min-width: 900px) {
+    body {
+        padding: 40px;
+        font-size: 20px;
+    }
+}
     </style>
 </head>
 <body>
