@@ -1462,3 +1462,16 @@ input#tertiary::placeholder{
   width: 1693px;
   box-sizing: border-box;
 }
+@media (min-width: 600px) {
+    .componant {
+        padding: 30px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 900px) {
+    .componant {
+        padding: 40px;
+        font-size: 20px;
+    }
+}
