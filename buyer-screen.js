@@ -82,8 +82,12 @@ function findProperty() {
       document.getElementById("results").innerHTML = this.responseText;
     }
   };
-  xhr.send(
-    "pt=" + propertyType + "&budget=" + budget + "&location=" + location
-  );
+
+  var params = "pt=" + encodeURIComponent(propertyType) +
+               "&budget=" + encodeURIComponent(budget) +
+               "&location=" + encodeURIComponent(location);
+
+  xhr.send(params);
 }
+
 
