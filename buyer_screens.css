@@ -408,6 +408,19 @@ input#location{
   padding: 32px;
   box-sizing: border-box;
 }
+@media (min-width: 600px) {
+    .buyer-screens {
+        padding: 30px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 900px) {
+    .buyer-screens {
+        padding: 40px;
+        font-size: 20px;
+    }
+}
 .buyer-screens .frame-4 {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.64) 22.3%, rgba(0, 0, 0, 0.64) 100%), url('/images/frame_42.jpeg') 50% / cover no-repeat;
   position: relative;
