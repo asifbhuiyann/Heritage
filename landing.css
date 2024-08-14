@@ -1425,3 +1425,16 @@
   flex-direction: column;
   width: 100%;
 }
+@media (min-width: 600px) {
+    .landing {
+        padding: 30px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 900px) {
+    .landing {
+        padding: 40px;
+        font-size: 20px;
+    }
+}
