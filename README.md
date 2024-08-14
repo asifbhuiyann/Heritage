@@ -11,14 +11,15 @@ I  have created this page so that you can navigate all the pages from here. As I
 2. For functionality I have used JavaScript. 
 3. For server-side handling I have used php language. Like posting data on the server and fetching those data from the server. 
 4. For searching I have added Ajax inside the JS and jQuery fade animation to show search details.
-5. I have used xampp as my server and did all the database work there.
+5. I have used XAMPP as my server and did all the database work there.
 
 ## Process
-I downloaded all the assets at first and later on I used them inside the code. There are two separate folders for pictures and vector SVG-type icons.
+
+I downloaded all the assets at first and later on I used them inside the code. There are two separate folders for pictures and vector SVG-type icons. The codes are inside the root folder 'Heritage'.
 
 ## Note:
 
-I completed the task using the given Figma measurement in my first commit. Figma measurement doesn't cover the entire screen. That's why I changed the contents width to full. 
+I completed the task using the given Figma measurement in my first commit. Figma measurement doesn't cover the entire screen. That's why I changed the contents width to full for better visibility.
 
 ## Images
 
