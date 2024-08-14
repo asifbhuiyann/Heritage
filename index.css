@@ -54,11 +54,15 @@ h1 {
 .navbar span:nth-child(3) { background-color: #6a0572; }
 .navbar span:nth-child(4) { background-color: #0abde3; }
 .navbar span:nth-child(5) { background-color: #10ac84; }
-.navbar span:nth-child(6) { background-color: #feca57; }
+.navbar span:nth-child(6) { background-color: #1cadd1; }
 .navbar span:nth-child(7) { background-color: #ff6b6b; }
 .navbar span:nth-child(8) { background-color: #5f27cd; }
 .navbar span:nth-child(9) { background-color: #54a0ff; }
 .navbar span:nth-child(10) { background-color: #01a3a4; }
+.navbar span:nth-child(11) { background-color: #b41515; }
+.navbar span:nth-child(12) { background-color: #177235; }
+.navbar span:nth-child(13) { background-color: #8a1d94; }
+.navbar span:nth-child(14) { background-color: #0a5858; }
 
 .navbar span a {
     color: white;
